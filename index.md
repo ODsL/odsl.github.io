@@ -1,6 +1,6 @@
 ## Goal
 
-The ODsL (Open Source Dataset Licensing) project is meant to engage the data science and open source communities (in Israel, for starters) in a discussion about how to adapt or create open code and data licenses suitable for the current and future challenges of a data-driven world and to encourage their use in academia, industry and government.
+The ODsL - Open Dataset Licensing - project is meant to engage the data science and open source communities (in Israel, for starters) in a discussion about how to adapt and create open code and data licenses suitable for the current and future challenges of a data-driven world and to encourage their use in academia, industry and government.
 
 
 ## Motivation

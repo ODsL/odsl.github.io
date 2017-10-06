@@ -15,17 +15,21 @@
 
 <body>
     <section class="page-header">
-        <div class="row uniform">
-                <section class="3u"></section>
-                <section class="3u">
-                        <img src="images/odsl_icon_low.png" style="width:100px;height:100px;">
-                </section>
-                <section class="3u">
-                        <h1 class="project-name">  {{ site.title | default: site.github.repository_name }}</h1>
-                        <h2 class="project-tagline" style="color:white;">{{ site.description | default: site.github.project_tagline }}</h2>
-                </section>
-                <section class="3u"></section>
+        <div class="side" style="padding-right:50px;">
+            <img src="images/odsl_icon_low.png" style="width:130px;height:130px;">
         </div>
+        <div class="side">
+            <h1 class="project-name" style="text-align:left">  {{ site.title | default: site.github.repository_name }}</h1>
+            <h2 class="project-tagline" style="color:white;text-align:left">{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
+        <!-- <div class="row uniform">
+                <section class="3u"></section>
+                <section class="3u">
+                </section>
+                <section class="3u">
+                </section>
+                <section class="3u"></section>
+        </div> -->
         <!-- {% if site.github.is_project_page %}
             <a href="doc.html" class="btn">Documentation</a>
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
