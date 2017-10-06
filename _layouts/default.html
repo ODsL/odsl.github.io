@@ -15,8 +15,8 @@
 
 <body>
     <section class="page-header">
-        <img src="image/odsl_icon.png" alt="ODsL logo" style="width:200px;height:200px;">
-        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+
+        <h1 class="project-name"> <img src="image/odsl_icon.png" style="width:200px;height:200px;"> {{ site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline" style="color:white;">{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
             <a href="doc.html" class="btn">Documentation</a>
