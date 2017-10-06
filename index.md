@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Goal
 
-You can use the [editor on GitHub](https://github.com/ODsL/odsl.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The ODsL (Open Source Dataset Licensing) project is meant to engage the data science and open source communities (in Israel, for starters) in a discussion about how to adapt or create open code & data licenses suitable for the current and future challenges of a data-driven world and to encourage their use in academia, industry and government.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Motivation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Today, numerous datasets, and code meant to generate them, are available for every enthusiastic developer and researcher to explore. Those datasets, however, can also be used for less-than-honest ends by companies and organizations in various ways, some of which are made possible with recent advances in machine learning and related fields. On the other hand, the importance and power of large datasets is also increasing, and with them the importance of keeping them open.
 
-```markdown
-Syntax highlighted code block
+However, current licenses for open code and data have not been created with explicit consideration of these scenarios.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Contact Us
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ODsL/odsl.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Email us at [odsl.project@gmail.com](mailto:odsl.project@gmail.com)
