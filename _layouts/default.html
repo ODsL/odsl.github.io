@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name
+    <title><img src="image/odsl_icon.png" alt="ODsL logo" style="width:200px;height:200px;">{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name
         }}</title>
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"
     />
@@ -19,7 +19,7 @@
         <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
             <a href="doc.html" class="btn">Documentation</a>
-            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> 
+            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
         {% endif %}
         {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
